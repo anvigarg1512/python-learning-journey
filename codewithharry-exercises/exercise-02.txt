@@ -1,0 +1,13 @@
+#exercise-2  #give message of GM,GN etc.
+
+import time #import time module first
+time= int(time.strftime('%H'))   #main catch is to use int #(%H) means 24 hour clock
+if 4<=time<12:
+   print("Good morning")
+if 12<=time<16:
+    print("Good afternoon")
+if 16<=time<=20:
+    print("Good evening")
+if 20<time<=3:
+    print("Good night")
+
