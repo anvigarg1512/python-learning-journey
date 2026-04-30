@@ -1,4 +1,4 @@
-#spli and join string #print a code with hyphen between words
+#split and join string #print a code with hyphen between words
 
 
 def split_and_join(line):    #create a function
