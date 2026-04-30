@@ -1,4 +1,4 @@
-#exercise-1  #basic calculator
+#exercise-01  #basic calculator
 
 a= int(input("enter a number"))
 b= int(input("enter a number"))
