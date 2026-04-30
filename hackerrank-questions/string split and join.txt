@@ -1,0 +1,11 @@
+#spli and join string #print a code with hyphen between words
+
+
+def split_and_join(line):    #create a function
+    line= line.split(" ")
+    line= "-".join(line)
+    return line      #the input solved will return to function and print the output by return statement
+    
+line= input()
+result= split_and_join(line)
+print(result)
