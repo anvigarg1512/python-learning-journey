@@ -1,0 +1,15 @@
+#code for fibonacci series
+#f(0)=0
+#f(1)=1
+#f(2)=f(0)+ f(1)
+def fibonacci(num):
+    if(num==0):
+        return 0
+    elif(num==1):
+        return 1
+    else:
+        return(fibonacci(num-1)+fibonacci(num-2))
+
+#example
+print(Fibonacci(5))
+5
